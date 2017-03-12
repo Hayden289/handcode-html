@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     style.setAttribute('rel', 'stylesheet');
     style.setAttribute('type', 'text/css');
     document.head.appendChild(style);
+    document.title = 'Recursion';
     
     red.setAttribute('class', 'red box');
     document.body.appendChild(red);
